@@ -1,0 +1,24 @@
+{
+  "name": "jellyfin-nfc",
+  "version": "0.1.0",
+  "description": "Use NFC tags to control jellyfin - a node app inspired by and compatible with hankhank10/vinylemulator, with better NFC reader compatibility",
+  "main": "jellyfin_nfc.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start-all": "concurrently --kill-others \"npm start\"",
+    "start": "node index.js",
+    "prepare": "husky install",
+    "format": "prettier --write . && git add -A ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-transform-amd-to-commonjs": "^1.4.0",
+    "husky": "^7.0.1",
+    "jest": "^27.0.6",
+    "jest-fetch-mock": "^3.0.3",
+    "prettier": "^2.3.2"
+  }
+}
