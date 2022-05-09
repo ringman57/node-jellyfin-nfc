@@ -11,6 +11,14 @@
     "prepare": "husky install",
     "format": "prettier --write . && git add -A ."
   },
+  "author": "Anthony DeSalvatore",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nfc-pcsc": "^0.8.0",
+    "nfccard-tool": "^0.1.1",
+    "node-fetch": "^2.6.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.9",
